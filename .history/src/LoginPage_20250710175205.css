@@ -136,7 +136,7 @@ margin-bottom: 5px;
 
 .form-input{
 
-  width: 380px;
+ width: 380px;
   height: 20px;
   min-width: 140px;
   max-width: 500px;
@@ -144,9 +144,9 @@ margin-bottom: 5px;
   opacity: 1;
   border-radius: 8px;
   border-width: 1px;
-  padding: 5px 8px 5px 12px;
+  padding: 5px 5px 5px 9px;
   gap: 8px;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.4) 100%);
   border: 1px solid transparent; /* fallback for border-image */
