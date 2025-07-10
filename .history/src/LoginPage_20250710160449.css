@@ -7,7 +7,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #f8f9ff, #eef2ff);
+  /* background: linear-gradient(135deg, #f8f9ff, #eef2ff);
+   */
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
   flex-direction: column;
   /* font-family: 'Inter','sans-serif'; */
   position: relative;

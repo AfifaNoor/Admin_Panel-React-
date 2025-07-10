@@ -97,9 +97,7 @@ border: none;
 border-radius: 6px;
 padding: 2px 8px;
 cursor: pointer;
-display: inline-flex;
-align-items: center;
-justify-content: center;
+display: inline-block;
 
 }
 
