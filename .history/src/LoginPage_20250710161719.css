@@ -71,13 +71,13 @@ margin-bottom: 8px;
 }
 
 .login-form{
-  width: 450px;
-  height: 400px;
+  width: 476px;
+  height: 456px;
   position: absolute;
-  top: 150.5px;
+  top: 284.5px;
   left: 482px;
   border-radius: 12px;
-  padding: 32px;
+  padding: 12px;
   gap: 10px;
   opacity: 1;
   flex-direction: column;
