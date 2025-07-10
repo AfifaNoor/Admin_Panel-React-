@@ -17,7 +17,7 @@ const handleSubmit =(e)=>{
 
     if (email=== hardcoreMail && password === hardcorePassword){
         alert("Login Successfull")
-    
+        // navigate("/sign-up")
     }else{
         alert("Invalid Credential")
     }
@@ -32,25 +32,16 @@ const handleSubmit =(e)=>{
       <div className="signup-redirect">
         <p>
           Don’t have an account?{' '}
-          {/* <span className="signup-link" onClick={() => navigate('/sign-up')}> */}
-            {/* Sign Up */}
-          {/* </span> */}
-          <span className="signup-link" >
-            Sign
+          <span className="signup-link" onClick={() => navigate('/sign-up')}>
+            Sign Up
           </span>
         </p>
       </div>
 
-      <div className="title">
+      <div className="header">
         <h1>Log In</h1>
         <p>Hey there, welcome back!</p>
       </div>
-
-    <div>
-
-
-        
-    </div>
 
       <form className="login-form" onSubmit={handleSubmit}>
         <input
@@ -75,7 +66,7 @@ const handleSubmit =(e)=>{
           Login
         </button>
 
-        {/* <ToastContainer /> */}
+        <ToastContainer />
       </form>
     </div>
   );

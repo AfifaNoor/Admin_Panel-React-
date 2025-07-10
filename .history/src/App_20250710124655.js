@@ -6,8 +6,7 @@ import Router from './Router'
 const App = () => {
   return (
     <>
-      {/* <RouterProvider router={Router}/> */}
-      <LoginPage/>
+      <RouterProvider router={Router}/>
     </>
       
     

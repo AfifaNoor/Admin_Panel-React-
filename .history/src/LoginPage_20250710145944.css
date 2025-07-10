@@ -7,43 +7,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #f8f9ff, #eef2ff);
-  flex-direction: column;
-  /* font-family: 'Inter','sans-serif'; */
-  position: relative;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
 
  
-}
-
-
-.title{
-  z-index: 3;
-  width: 380px;
-  height: 72px;
-  opacity: 1;
-  gap: 10px;
-  
-}
-
-.title h1 {
-width: 380px;
-height: 40px;
-font-family: 'Inter', sans-serif;
-font-weight: 600px;
-font-size: 30px;
-line-height: 40px;
-letter-spacing: -1%;
-}
-
-.title p{
-  font-size: 16px;
-  font-style: Inter;
-  font-weight: 400px;
-  font-style:normal;
-  line-height: 22px;
-  letter-spacing: -1%;
-  color: rgba(107, 114, 128, 1);
-
 }
 
 .login-form{
@@ -52,11 +18,10 @@ letter-spacing: -1%;
   position: absolute;
   top: 284.5px;
   left: 482px;
-  border-radius: 12px;
-  padding: 32px;
+  border-radius: 8px;
+  padding: 48px;
   gap: 10px;
   opacity: 1;
-  flex-direction: column;
 
   z-index: 2;
 
@@ -75,6 +40,29 @@ box-shadow:
   0px 1px 0px 0px rgba(0, 0, 0, 0.05),         
   inset 0px 20px 50px 0px rgba(255, 255, 255, 0.15); 
 
+
+
+
 }
 
+.title h1 {
+width: 380px;
+height: 40px;
+font-family: 'Inter', sans-serif;
+font-weight: 600px;
+font-size: 30px;
+line-height: 40px;
+letter-spacing: ;
 
+   
+
+}
+
+.title{
+  z-index: 3;
+  width: 380px;
+  height: 72px;
+  opacity: 1;
+  gap: 10px;
+  
+}

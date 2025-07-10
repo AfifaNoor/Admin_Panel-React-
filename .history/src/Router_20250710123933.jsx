@@ -1,16 +1,14 @@
 import React from 'react';
 import { createBrowserRouter , createRoutesFromElements , Route } from 'react-router-dom';
-import LoginPage from './LoginPage';
-import SignUp from './SignUp';
 
 const Router = createBrowserRouter(
   createRoutesFromElements(
     <>
 
       <Route path='/sign-up' element={<SignUp/>}/>
-      <Route path='login-page' element={<LoginPage/>}/>
+      <ROute pa
     </>
   )
 )
 
-export default Router;
+export default Router

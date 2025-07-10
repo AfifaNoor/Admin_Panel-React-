@@ -41,7 +41,7 @@ const handleSubmit =(e)=>{
         </p>
       </div>
 
-      <div className="title">
+      <div className="header">
         <h1>Log In</h1>
         <p>Hey there, welcome back!</p>
       </div>

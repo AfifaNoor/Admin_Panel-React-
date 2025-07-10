@@ -1,0 +1,80 @@
+.login-container {
+  width: 1440px;
+  height: 1024px;   
+  /* background: #FFFFFF; */
+  opacity: 1;   
+  transform: rotate(0deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f8f9ff, #eef2ff);
+  flex-direction: column;
+  font-family: ;
+
+ 
+}
+
+.login-form{
+  width: 476px;
+  height: 456px;
+  position: absolute;
+  top: 284.5px;
+  left: 482px;
+  border-radius: 8px;
+  padding: 48px;
+  gap: 10px;
+  opacity: 1;
+
+  z-index: 2;
+
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -9.58%, rgba(255, 255, 255, 0.052) 100%);
+  border: 1px solid transparent;
+  border-image-source: linear-gradient(93.78deg, #FFFFFF 8.04%, rgba(255, 255, 255, 0) 100%);
+  border-image-slice: 1;
+  
+ 
+-webkit-backdrop-filter: blur(20px); 
+backdrop-filter: blur(20px);
+
+box-shadow: 
+  0px 10px 10px 0px rgba(0, 0, 0, 0.10),      
+  0px 4px 4px 0px rgba(0, 0, 0, 0.05),         
+  0px 1px 0px 0px rgba(0, 0, 0, 0.05),         
+  inset 0px 20px 50px 0px rgba(255, 255, 255, 0.15); 
+
+
+
+
+}
+
+.title{
+  z-index: 3;
+  width: 380px;
+  height: 72px;
+  opacity: 1;
+  gap: 10px;
+  
+}
+
+.title h1 {
+width: 380px;
+height: 40px;
+font-family: 'Inter', sans-serif;
+font-weight: 600px;
+font-size: 30px;
+line-height: 40px;
+letter-spacing: -1%;
+}
+
+.title p{
+  font-size: 16px;
+  font-style: Inter;
+  font-weight: 400px;
+  font-style:normal;
+  line-height: 22px;
+  letter-spacing: -1%;
+  color: rgba(107, 114, 128, 1);
+
+}
+
+

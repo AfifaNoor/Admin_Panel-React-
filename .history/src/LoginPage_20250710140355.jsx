@@ -41,18 +41,13 @@ const handleSubmit =(e)=>{
         </p>
       </div>
 
-      <div className="title">
+      <div className="header">
         <h1>Log In</h1>
         <p>Hey there, welcome back!</p>
       </div>
 
-    <div>
-
-
-        
-    </div>
-
-      <form className="login-form" onSubmit={handleSubmit}>
+    <div >
+     <form className="login-form" onSubmit={handleSubmit}>
         <input
           type="email"
           className="form-input"
@@ -75,8 +70,13 @@ const handleSubmit =(e)=>{
           Login
         </button>
 
-        {/* <ToastContainer /> */}
+        <ToastContainer />
       </form>
+
+
+    </div>
+
+     
     </div>
   );
 }
