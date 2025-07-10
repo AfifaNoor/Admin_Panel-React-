@@ -1,0 +1,47 @@
+import React, { useState } from 'react'
+
+const LoginPage = () => {
+    // const[email , setEmail]=useState('')
+    // cont [password , setPassword] = useState('')
+
+
+
+  return (
+    <div className='login-container'>
+
+    <div className='signup-redirect'>
+         <p>
+            Don't  have an account? <span className="signup-link">Sign Up</span>
+         </p>
+    </div>
+    <div className='header'>
+    <h1 className='title'>Log In </h1>
+    <p>Hey There Welcome Back </p>
+
+    </div>
+    <form className='login-form'>
+    <input type='text'
+     className='input-field' 
+     placeholder='Username'
+     required
+
+     />
+
+    <input type='password'
+    className='input-feild' 
+    placeholder='Password'
+    required
+
+    />
+    <button className='login-btn'
+    type='submit'>
+        Login 
+    </button>
+    </form>
+    
+      
+    </div>
+  )
+}
+
+export default LoginPage
