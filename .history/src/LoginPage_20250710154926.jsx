@@ -63,7 +63,6 @@ const handleSubmit =(e)=>{
           required
         />
 
-        <label className='form-label'>Password</label>
         <input
           type="password"
           className="form-input"
