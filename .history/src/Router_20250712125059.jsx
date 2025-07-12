@@ -9,8 +9,8 @@ const Router = createBrowserRouter(
     <>
 
       <Route path='/sign-up' element={<SignUp/>}/>
-      <Route path='/' element={<LoginPage/>}/>
-      <Route path ="/admin-panel" element = {<AdminPanel/>}/>
+      <Route path='login-page' element={<LoginPage/>}/>
+      <Route path ="/" element = {<AdminPanel/>}/>
 
     </>
   )

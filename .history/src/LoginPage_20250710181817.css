@@ -92,16 +92,14 @@ width: 380px;
 height: 40px;
 font-family: 'Inter', sans-serif;
 font-weight: 600px;
-/* font-size: 22px; */
-font-size: 1.5rem;
+font-size: 22px;
 line-height: 40px;
 letter-spacing: -1%;
 margin-bottom: 8px;
 }
 
 .title p{
-  /* font-size: 16px; */
-  font-size: 1rem;
+  font-size: 16px;
   font-style: Inter;
   font-weight: 400px;
   font-style:normal;

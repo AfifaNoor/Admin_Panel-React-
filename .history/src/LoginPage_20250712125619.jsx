@@ -13,7 +13,7 @@ const handleSubmit =(e)=>{
     e.preventDefault();
 
  const hardcoreMail="login@gmail.com";
- const hardcorePassword = 'login1234'
+ const hardcorePassword = '1234567'
 
     if (email === hardcoreMail && password === hardcorePassword) {
       toast.success("Login Successful!", {

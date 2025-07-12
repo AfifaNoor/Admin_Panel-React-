@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useNavigate} from 'react-router-dom';
+import {Navigate, useNavigate} from 'react-router-dom';
 import "./LoginPage.css"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -13,7 +13,7 @@ const handleSubmit =(e)=>{
     e.preventDefault();
 
  const hardcoreMail="login@gmail.com";
- const hardcorePassword = 'login1234'
+ const hardcorePassword = '1234567'
 
     if (email === hardcoreMail && password === hardcorePassword) {
       toast.success("Login Successful!", {
@@ -27,7 +27,7 @@ const handleSubmit =(e)=>{
 
       // Optional: Redirect after 2 seconds
       setTimeout(() => {
-        navigate("/admin-panel"); // Or wherever you want to navigate
+        navigate("/dashboard"); // Or wherever you want to navigate
       }, 2000);
     } else {
       toast.error("Invalid Credentials", {

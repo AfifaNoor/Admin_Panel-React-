@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useNavigate} from 'react-router-dom';
+// import {Navigate, useNavigate} from 'react-router-dom';
 import "./LoginPage.css"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -7,35 +7,23 @@ import 'react-toastify/dist/ReactToastify.css';
 const LoginPage = () => {
     const[email , setEmail]=useState('')
     const [password , setPassword] = useState('')
-    const navigate= useNavigate();
+    // const navigate= useNavigate();
 
 const handleSubmit =(e)=>{
     e.preventDefault();
 
  const hardcoreMail="login@gmail.com";
- const hardcorePassword = 'login1234'
+ const hardcorePassword = '1234567'
 
-    if (email === hardcoreMail && password === hardcorePassword) {
-      toast.success("Login Successful!", {
-        position: "top-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-      });
-
-      // Optional: Redirect after 2 seconds
-      setTimeout(() => {
-        navigate("/admin-panel"); // Or wherever you want to navigate
-      }, 2000);
-    } else {
-      toast.error("Invalid Credentials", {
-        position: "top-right",
-        autoClose: 3000,
-      });
+    if (email=== hardcoreMail && password === hardcorePassword){
+        alert("Login Successfull")
+    
+    }else{
+        alert("Invalid Credential")
     }
-  };
+
+}
+   
 
 
   return (
@@ -44,12 +32,12 @@ const handleSubmit =(e)=>{
       <div className="signup-redirect">
         <p>
           Don’t have an account?{' '}
-          <span className="signup-link" onClick={() => navigate('/sign-up')}>
-            Sign Up
-          </span>
-          {/* <span className="signup-link" >
+          {/* <span className="signup-link" onClick={() => navigate('/sign-up')}> */}
+            {/* Sign Up */}
+          {/* </span> */}
+          <span className="signup-link" >
             Sign
-          </span> */}
+          </span>
         </p>
       </div>
 
@@ -66,7 +54,7 @@ const handleSubmit =(e)=>{
         <h1>Log In</h1>
         <p>Hey there, welcome back!</p>
       </div>
-      <label className='form-label'>Email</label>
+      <label className='form-label'><strong> Email</strong></label>
         <input
           type="email"
           className="form-input"
@@ -90,18 +78,7 @@ const handleSubmit =(e)=>{
           Login 
         </button>
 
-           <ToastContainer
-          position="top-right"
-          autoClose={3000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="colored"
-        /><ToastContainer />
+        {/* <ToastContainer /> */}
       </form>
     </div>
   );

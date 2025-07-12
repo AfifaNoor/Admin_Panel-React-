@@ -42,7 +42,7 @@
 
 .login-form{
   width: 400px;
-  height: 430px;
+  height: 400px;
   /* position: absolute; */
   /* top: 150.5px; */
   /* left: 482px; */
@@ -51,8 +51,6 @@
   gap: 10px;
   opacity: 1;
   flex-direction: column;
-  display: flex;
-  gap:12px;
 
   z-index: 2;
 
@@ -92,21 +90,19 @@ width: 380px;
 height: 40px;
 font-family: 'Inter', sans-serif;
 font-weight: 600px;
-/* font-size: 22px; */
-font-size: 1.5rem;
+font-size: 22px;
 line-height: 40px;
 letter-spacing: -1%;
 margin-bottom: 8px;
 }
 
 .title p{
-  /* font-size: 16px; */
-  font-size: 1rem;
+  font-size: 16px;
   font-style: Inter;
   font-weight: 400px;
   font-style:normal;
   line-height: 22px;
-  letter-spacing: -1%;
+  /* letter-spacing: -1%; */
   color: rgba(107, 114, 128, 1);
   margin-bottom: 24px;
   /* margin-bottom: 5px; */
@@ -121,7 +117,7 @@ opacity: 1;
 gap: 12px;
 text-align: left;
 font-family: 'Intern',sans-serif;
-font-weight: 600px;
+font-weight: 500px;
 font-size: 14px;
 line-height: 22px;
 letter-spacing: -0.01em;
@@ -140,7 +136,7 @@ margin-bottom: 5px;
 
 .form-input{
 
-  width: 350px;
+  width: 380px;
   height: 20px;
   min-width: 140px;
   max-width: 500px;
@@ -170,17 +166,15 @@ margin-bottom: 5px;
 .login-btn{
   direction: vertical;
   width: 380px;
-  height: 50px;
+  height: 58px;
   padding: 7px 7px ;
   gap: 12px;
-  border-radius:8px;
+  border-radius: 1px;
   opacity: 90%;
   border-color: #eef2ff;
   color: #eef2ff;
   font-weight: 400px;
-  font-size: 20px;
   /* border: 1px solid;
-
 
 border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
 linear-gradient(45deg, rgba(255, 255, 255, 0) 33.33%, #FFFFFF 95%); */
